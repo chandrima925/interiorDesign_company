@@ -1,2 +1,188 @@
 @import url("https://fonts.cdnfonts.com/css/geomanist");
-@import url("https://fonts.cdnfonts.com/css/libre-baskerville");/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.cdnfonts.com/css/libre-baskerville");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+.hero-section {
+  background-image: url(img/bg1.png);
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-section .container {
+  height: auto;
+}
+.hero-section .container ul {
+  gap: 15px;
+  padding: 0 15px;
+}
+.hero-section .container li {
+  padding: 0 3px;
+}
+.hero-section .container li a {
+  font-family: "Geomanist", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+.hero-section .container i {
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 0.5rem;
+}
+.hero-section .container .hero-section-text {
+  padding: 10% 0;
+}
+.hero-section .container .hero-section-text .display-2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  line-height: 1;
+}
+.hero-section .container .hero-section-text .devider {
+  content: " ";
+  width: 10%;
+  height: 5px;
+  position: relative;
+  left: -2%;
+  margin: 50px 0;
+  background-color: #ef375d;
+  display: block;
+}
+.hero-section .container .hero-section-text h3 {
+  color: #616161;
+  font-family: "Geomanist", sans-serif;
+  padding: 50px 0;
+}
+.hero-section .container .hero-section-text button {
+  border-radius: 5px;
+  border: none;
+  padding: 20px 40px;
+  background-image: linear-gradient(130deg, #fa1d8f 27%, #833f9f 52%, #175ead 90%);
+  color: white;
+  font-family: "Geomanist", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.about-section {
+  background-color: #f2f5f4;
+}
+.about-section h5 {
+  background-image: linear-gradient(130deg, #fa1d8f 15%, #833f9f 20%, #175ead -102%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+}
+.about-section .form-section {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  border: 1px solid rgba(97, 97, 97, 0.3568627451);
+  box-shadow: 1px 0px 60px rgba(83, 83, 83, 0.3098039216);
+  margin-bottom: 10px;
+  transform: translate(0px, -110px);
+}
+.about-section .form-section .content-section {
+  width: 25%;
+}
+.about-section .form-section .content-section h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  line-height: 1;
+}
+.about-section .form-section .devider {
+  content: " ";
+  width: 2px;
+  height: 100px;
+  position: relative;
+  background-color: rgba(97, 97, 97, 0.0666666667);
+  display: block;
+  margin: 10px 20px;
+}
+.about-section .form-section .input-section-left,
+.about-section .form-section .input-section-right {
+  width: 25%;
+}
+.about-section .form-section .input-section-left input:not([type=checkbox]),
+.about-section .form-section .input-section-right input:not([type=checkbox]) {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 10px 0;
+}
+.about-section .form-section .input-section-left input:not([type=checkbox]):hover,
+.about-section .form-section .input-section-right input:not([type=checkbox]):hover {
+  border-bottom: 1px solid #fa1d8f;
+}
+.about-section .form-section ::-moz-placeholder {
+  font-size: 12px;
+  font-family: "Geomanist", sans-serif;
+  font-weight: 500;
+  color: #9d9d9d;
+}
+.about-section .form-section input,
+.about-section .form-section label,
+.about-section .form-section ::placeholder {
+  font-size: 12px;
+  font-family: "Geomanist", sans-serif;
+  font-weight: 500;
+  color: #9d9d9d;
+}
+.about-section .form-section label {
+  display: flex;
+  align-items: center;
+}
+.about-section .form-section .button-section button {
+  border-radius: 5px;
+  border: none;
+  padding: 35px 65px;
+  background-image: linear-gradient(130deg, #fcb307 27%, #71a52d 90%);
+  color: white;
+  margin: 10px;
+  font-size: 12px;
+}
+.about-section .welcome-text .devider {
+  content: " ";
+  width: 30%;
+  height: 5px;
+  position: relative;
+  left: -2%;
+  margin: 25px 0;
+  background-color: #ef375d;
+  display: block;
+}
+.about-section .welcome-text h5 {
+  background-image: linear-gradient(130deg, #fa1d8f 48%, #833f9f 60%, #175ead -102%);
+}
+.about-section .welcome-text .display-3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  line-height: 1;
+  color: #2b2a2a;
+}
+.about-section .about-section-left, .about-section .about-section-right {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  width: 30%;
+}
+.about-section .about-section-left h1, .about-section .about-section-right h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  line-height: 1;
+  padding: 50px 0 0 0;
+  color: #2b2a2a;
+}
+.about-section .about-section-left h4, .about-section .about-section-right h4 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  color: #2b2a2a;
+  padding: 1rem 0;
+}
+.about-section .about-section-left P, .about-section .about-section-right P {
+  font-family: "Nunito Sans", sans-serif;
+  color: #616161;
+}
+.about-section .about-section-right h1 {
+  padding: 0%;
+}/*# sourceMappingURL=style.css.map */

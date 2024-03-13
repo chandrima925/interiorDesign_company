@@ -1,0 +1,20 @@
+.about-section .container .form-section .d-flex{
+    flex-wrap: wrap;
+}
+.about-section .container .form-section .content-section{
+    width: 100%;
+}
+.about-section .container .form-section .devider{
+    display: none;
+}
+.about-section .container .form-section .input-section-left{
+    width: 100%;
+}
+.about-section .container .form-section .input-section-right{
+    width: 100%;
+}
+.about-section .container .form-section .button-section button{
+    margin: 20px 0;
+    
+    
+}
