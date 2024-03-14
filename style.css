@@ -405,7 +405,8 @@
   align-items: center;
   bottom: 10%;
 }
-.project .click-here h4, .project .click-here i {
+.project .click-here h4,
+.project .click-here i {
   color: white;
   font-family: "Geomanist", sans-serif;
 }

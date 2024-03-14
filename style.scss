@@ -432,6 +432,7 @@
 
     .project-links {
         position: relative;
+
         .devider {
             content: " ";
             width: 8.5%;
@@ -443,8 +444,9 @@
             display: block;
             z-index: 2;
         }
-        .wrapper{
-            content: " "; 
+
+        .wrapper {
+            content: " ";
             position: absolute;
             left: 0;
             top: 58%;
@@ -454,8 +456,9 @@
             width: 100%;
         }
     }
-    .option-button{
-        button{
+
+    .option-button {
+        button {
             border: 2px solid #decfbc;
             color: #2b2a2a;
             font-family: "Geomanist", sans-serif;
@@ -465,25 +468,30 @@
             padding: 10px 40px;
         }
     }
-    .option{
-        h1{
-            font-family: "Nunito Sans", sans-serif; 
+
+    .option {
+        h1 {
+            font-family: "Nunito Sans", sans-serif;
             color: #2b2a2a;
             font-weight: 100;
         }
     }
-    .click-here{
+
+    .click-here {
         position: absolute;
         display: flex;
         width: 100%;
         justify-content: space-around;
         align-items: center;
         bottom: 10%;
-        h4 ,i{
+
+        h4,
+        i {
             color: white;
             font-family: "Geomanist", sans-serif
         }
-        i{
+
+        i {
             font-size: 2rem;
         }
     }
