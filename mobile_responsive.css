@@ -1,33 +1,43 @@
-.about-section .container .form-section .d-flex{
+.about-section .container .form-section .d-flex {
     flex-wrap: wrap;
 }
-.about-section .container .form-section .content-section{
+
+.about-section .container .form-section .content-section {
     width: 100%;
 }
-.about-section .container .form-section .devider{
+
+.about-section .container .form-section .devider {
     display: none;
 }
-.about-section .container .form-section .input-section-left{
+
+.about-section .container .form-section .input-section-left {
     width: 100%;
 }
-.about-section .container .form-section .input-section-right{
+
+.about-section .container .form-section .input-section-right {
     width: 100%;
 }
-.about-section .container .form-section .button-section button{
+
+.about-section .container .form-section .button-section button {
     margin: 20px 0;
-    
-    
+
+
 }
-.about-section .about-wrapper{
+
+.about-section .about-wrapper {
     flex-wrap: wrap;
     justify-content: center;
 }
-.about-section .about-section-left, .about-section .about-section-right{
+
+.about-section .about-section-left,
+.about-section .about-section-right {
     width: 100%;
 }
-.about-section .about-section-right{
+
+.about-section .about-section-right {
     padding-top: 1rem;
 }
+
 .about-section .img-transparent {
     position: absolute;
     left: 0;
@@ -35,4 +45,11 @@
     height: 25%;
     -o-object-fit: cover;
     object-fit: cover;
+}
+
+.project .project-head {
+    flex-wrap: wrap;
+}
+.call-us button{
+    padding: 25px 35px;
 }

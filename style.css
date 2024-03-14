@@ -211,6 +211,7 @@
   background-image: url(img/cta.png);
   height: auto;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .call-us .container {
   padding: 10% 0;
@@ -259,6 +260,8 @@
 
 .service {
   padding: 100px 0;
+  overflow-x: hidden;
+  background-color: #f5f5f5;
 }
 .service .devider {
   content: " ";
@@ -289,7 +292,8 @@
   top: 7%;
   padding: 2rem;
 }
-.service .subject-text h4, .service .subject-text p {
+.service .subject-text h4,
+.service .subject-text p {
   color: white;
   font-family: "Geomanist", sans-serif;
 }
@@ -317,4 +321,94 @@
   transition: all 0.5s ease-in-out;
   bottom: 15%;
   font-size: 3rem;
+}
+
+.project {
+  background-color: #f3e9de;
+  padding: 100px 0;
+}
+.project .devider {
+  content: " ";
+  width: 10%;
+  height: 5px;
+  position: relative;
+  left: -2%;
+  margin: 20px 0;
+  background-color: #ef375d;
+  display: block;
+}
+.project .display-3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  line-height: 1;
+  color: #2b2a2a;
+  padding: 1rem 0;
+}
+.project P {
+  font-family: "Nunito Sans", sans-serif;
+  color: #616161;
+}
+.project .project-button button {
+  border-radius: 5px;
+  border: none;
+  padding: 20px 40px;
+  background-image: linear-gradient(130deg, #fa1d8f 27%, #833f9f 52%, #175ead 90%);
+  color: white;
+  font-family: "Geomanist", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.project .project-links {
+  position: relative;
+}
+.project .project-links .devider {
+  content: " ";
+  width: 8.5%;
+  height: 3px;
+  position: relative;
+  left: 0;
+  margin: 10px 0;
+  background-color: #ef375d;
+  display: block;
+  z-index: 2;
+}
+.project .project-links .wrapper {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 58%;
+  background-color: #decfbc;
+  display: block;
+  height: 1px;
+  width: 100%;
+}
+.project .option-button button {
+  border: 2px solid #decfbc;
+  color: #2b2a2a;
+  font-family: "Geomanist", sans-serif;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 10px 40px;
+}
+.project .option h1 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #2b2a2a;
+  font-weight: 100;
+}
+.project .click-here {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 10%;
+}
+.project .click-here h4, .project .click-here i {
+  color: white;
+  font-family: "Geomanist", sans-serif;
+}
+.project .click-here i {
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */
