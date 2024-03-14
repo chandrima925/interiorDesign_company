@@ -18,3 +18,21 @@
     
     
 }
+.about-section .about-wrapper{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-section .about-section-left, .about-section .about-section-right{
+    width: 100%;
+}
+.about-section .about-section-right{
+    padding-top: 1rem;
+}
+.about-section .img-transparent {
+    position: absolute;
+    left: 0;
+    top: 85%;
+    height: 25%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
