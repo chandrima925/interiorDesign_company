@@ -54,15 +54,19 @@
 .call-us button {
     padding: 25px 35px;
 }
-.project .option-button button{
+
+.project .option-button button {
     padding: 10%;
 }
-.project .project-main-section .d-flex{
+
+.project .project-main-section .d-flex {
     justify-content: space-evenly;
 }
-.service .service-heading-text{
+
+.service .service-heading-text {
     width: 100%;
 }
-.service .container .row{
+
+.service .container .row {
     gap: 10px;
 }
