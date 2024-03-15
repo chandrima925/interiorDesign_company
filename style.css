@@ -263,6 +263,9 @@
   overflow-x: hidden;
   background-color: #f5f5f5;
 }
+.service .service-heading-text {
+  width: 33.33%;
+}
 .service .devider {
   content: " ";
   width: 10%;
@@ -291,6 +294,7 @@
   position: absolute;
   top: 7%;
   padding: 2rem;
+  width: 85%;
 }
 .service .subject-text h4,
 .service .subject-text p {
@@ -347,6 +351,9 @@
 .project P {
   font-family: "Nunito Sans", sans-serif;
   color: #616161;
+}
+.project .project-main-section .d-flex {
+  justify-content: space-between;
 }
 .project .project-button button {
   border-radius: 5px;
